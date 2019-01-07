@@ -1,4 +1,4 @@
-disqus: ## Your disqus_shortname, e.g. username
+disqus: swang251 ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
@@ -38,7 +38,7 @@ fancybox: true ## If you want to use fancybox please set the value to true.
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
-busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
+busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 wordcount: false ## If you want to display the word counter and the reading time expected to spend of each post please set the value to true, and you must have hexo-wordcount installed.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
@@ -61,15 +61,18 @@ post_copyright:
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 
 menu:
-  - page: home
-    directory: .
-    icon: fa-home
+  - page: About
+    directory: /About
+    icon: fa-user
+  - page: Publications
+    directory: publications/
+    icon: fa-book
+  - page: Blogs
+    directory: /
+    icon: fa-coffee
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: about
-    directory: about/
-    icon: fa-user
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -79,16 +82,18 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - category
   - tag
   - recent_posts
-  - recent_comments
+##  - recent_comments
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: Computational Acoustic Modeling Laboratory (CAML)
+    url: http://www.music.mcgill.ca/caml
+  - title: Schulich School of Music
+    url: http://www.mcgill.ca/music/
+  - title: CIRMMT
+    url: http://www.cirmmt.org
+  - title: Wei Cui (Composer)
+    url: http://www.cuiwei.me
 
 timeline:
   - num: 1
